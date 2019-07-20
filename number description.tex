@@ -1,0 +1,85 @@
+\documentclass{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{color}
+\usepackage{listings}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+%\usepackage{fontspec}
+%\usepackage[utf8]{inputenc}
+%\setmainfont{Futura}[ItalicFont={Futura Italic}]
+
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{0,0.5,1}
+\definecolor{colString}{rgb}{0.6,0.1,0.1}
+
+\lstset{%configuration de listings
+float=hbp,
+basicstyle=\ttfamily\small, 
+identifierstyle=\color{colIdentifier}, 
+keywordstyle=\color{colKeys}, 
+stringstyle=\color{colString}, 
+commentstyle=\color{colComments}, 
+columns=flexible, 
+tabsize=2, 
+%frame=trBL, 
+frameround=tttt, 
+extendedchars=true, 
+showspaces=false, 
+showstringspaces=false, 
+numbers=left, 
+numberstyle=\tiny, 
+breaklines=true, 
+breakautoindent=true, 
+captionpos=b,
+xrightmargin= 1cm, 
+xleftmargin= 1cm
+} 
+\lstset{language=c++}
+\lstset{commentstyle=\textit}
+
+
+\parskip 5pt plus 2pt minus 2pt
+\textwidth=14cm
+\oddsidemargin=1cm
+\evensidemargin=1cm
+\topmargin=-0.5cm
+\headheight=0cm
+\headsep=1cm
+\textheight=23cm
+\parindent=1.5cm
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+Introduction to Euler$'$s number and its unique characteristics
+\end{center}
+\bigskip
+
+
+\section*{1. INTRODUCTION}
+
+\noindent  Euler$'$s number e is a mathematical constant which is the base of the natural logarithm. It's a unique number whose natural logarithm is equal to one. It's value is approximately 2.71828 and is the limit of (1 + 1/n)n as n approaches infinity. It can also be calculated as the sum of the infinite series:
+$${\displaystyle e=\sum \limits _{n=0}^{\infty }{\frac {1}{n!}}={\frac {1}{1}}+{\frac {1}{1}}+{\frac {1}{1\cdot 2}}+{\frac {1}{1\cdot 2\cdot 3}}+\cdots }\displaystyl}$$
+
+\noindent Euler$'$s number is named after the Swiss mathematician Leonhard Euler, number e is also known as Napier's constant
+
+\section*{2. UNIQUE CHARACTERISTICS}
+\noindent 1) e can be defined as a unique positive number $'$a$'$ such that the graph of the function y=ax has unit slope at x = 0.[3] The function f(x) = ex is called the (natural) exponential function, and is the unique exponential function equal to its own derivative.\\*\newline
+\noindent 2) There is the remarkable property that if the function $e^ x$ (known as the exponential function and also denoted as "$\exp (x) $") is differentiated with respect to $x$, then the result is the same function $e^ x$
+
+\section*{3. APPLICATIONS}
+\noindent 1) Compound Interest: The usage of this constant in compound interest was discovered by James Bernoulli in 1683.Bernoulli noticed that an account that would start with 1\$ with interest rate R will yield [eRt] dollars after t years with continuous compounding.\\*\newline
+\noindent 2) Derangements: Discovered by  Pierre Raymond de Montmort and Bernoulli , e could be applied in  derangements. A derangement is a permutation of the elements of a set, such that no element appears in its original position.\\*\newline
+\noindent 3) Standard normal distribution: The normal distribution with zero mean and unit standard deviation is known as the standard normal distribution, given by the probability density function
+
+{\displaystyle \phi (x)={\frac {1}{\sqrt {2\pi }}}e^{-{\frac {1}{2}}x^{2}}.} {\displaystyle \phi (x)={\frac {1}{\sqrt {2\pi }}}e^{-{\frac {1}{2}}x^{2}}.}
+\end{document}
+
+
+
+
+
