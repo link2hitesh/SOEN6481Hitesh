@@ -1,0 +1,19 @@
+user story 1- As a user , I want the value of Euler's number to be returned upto my desired number of decimal places, so that I can use it to for certain computations
+
+user story 2- As a user, I want to be able to calculate the natural logarithm directly, so that I dont have to write the entire formula repeatedly. 
+
+user story 3- As a user, I want all the basic arithemetic operations , so that I can compute the basic calculations.
+
+user story 4- As a user, I want some other operations in addition to the arithmetic operations which are: exponential operator, pie, square root, cube root etc to perform complex scientific calculations
+
+user story 5-  As a user,  I want to be able to delete one character at a time rather than deleting the entire calculation, so that the calculator is easier to use.
+
+user story 6- As a user, I want to be able to store five of my previous calculation results, so that I can check them later if required.
+
+user story 7-  As a user, I want to calculate the value of the guassian integral, so that I can use it in my studies.
+
+
+
+
+
+ 
